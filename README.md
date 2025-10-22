@@ -1,12 +1,21 @@
 # COSC213 PHP Lab: Expressions and Control Flow
 
+How to Run:
+
+Prerequisites: Ensure PHP 7+ is installed (php -v in terminal). 
+
+Setup: Clone this repo and navigate to the lab4/ folder.
+
+Running Scripts:
+For CLI-based parts (01_expressions.php, 02_branching.php, 03_loops.php): Run php filename.php in your terminal.
+For web-based parts (04_grade_form/, 05_toolkit/): Start a local server with php -S localhost:8000 from the lab4/ folder, then open the browser to http://localhost:8000/04_grade_form/ or http://localhost:8000/05_toolkit/.
+
+Testing: Use query parameters in URLs for dynamic inputs (e.g., ?score=95 for forms).
 
 
 
 
-
-NOTES ON '==' and '===':
-
+Notes On '==' and '===':
 
 == (Loose Equality): Performs type coercion, meaning it converts values to the same type before comparing. We use this when we want flexible comparisons, but it's risky for user inputs or mixed types.
 
