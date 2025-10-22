@@ -36,3 +36,13 @@ for ($i = 1; $i <= 30; $i++) {
     if ($i % 5 === 0) $out .= 'Buzz';
     echo $out !== '' ? $out : $i, PHP_EOL;
 }
+
+echo "<table>\n";
+for ($r = 1; $r <= 10; $r++) {
+  echo "<tr>";
+  for ($c = 1; $c <= 10; $c++) {
+    echo "<td>" . ($r * $c) . "</td>";
+  }
+  echo "</tr>\n";
+}
+echo "</table>\n";
